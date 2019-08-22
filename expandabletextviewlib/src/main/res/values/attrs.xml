@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <!-- 内容文本 -->
+        <attr name="contentText" format="string|reference" />
+        <!-- 内容文本 字体颜色 默认黑色 -->
+        <attr name="contentTextColor" format="color|reference" />
+        <!-- 内容文本 字体大小 默认14sp -->
+        <attr name="contentTextSize" format="dimension|reference" />
+        <!-- 内容文本 最多显示行数 默认4行 -->
+        <attr name="contentMaxLine" format="integer" />
+        <!-- 展开/收起 间距 默认2dp -->
+        <attr name="middlePadding" format="dimension|reference" />
+        <!-- 展开/收起 '展开'文本 -->
+        <attr name="labelExpandText" format="string|reference" />
+        <!-- 展开/收起 '收起'文本 -->
+        <attr name="labelCollapseText" format="string|reference" />
+        <!-- 展开/收起 字体颜色 默认蓝色 -->
+        <attr name="labelTextColor" format="color|reference" />
+        <!-- 展开/收起 字体大小 默认12sp -->
+        <attr name="labelTextSize" format="dimension|reference" />
+        <!-- 展开/收起 '展开'图片 默认无 -->
+        <attr name="labelExpandDrawable" format="reference" />
+        <!-- 展开/收起 '收起'图片 默认无 -->
+        <attr name="labelCollapseDrawable" format="reference" />
+        <!-- 展开/收起 图片位置 默认POSITION_LEFT -->
+        <attr name="labelDrawablePosition" format="enum">
+            <enum name="POSITION_LEFT" value="0" />
+            <enum name="POSITION_RIGHT" value="1" />
+        </attr>
+        <!-- 动画时长 默认300ms -->
+        <attr name="animDuration" format="integer" />
+    </declare-styleable>
+</resources>

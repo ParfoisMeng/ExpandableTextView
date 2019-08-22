@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <com.parfoismeng.expandabletextviewlib.weiget.ExpandableTextView
+            android:id="@+id/tvTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            app:contentMaxLine="4"
+            app:contentTextSize="24sp"
+            app:labelCollapseText="收起"
+            app:labelExpandText="全文"
+            app:labelPadding="5dp"
+            app:labelTextColor="#0000FF"
+            app:labelTextSize="14sp"
+            tools:contentText="Hello World!" />
+
+        <com.parfoismeng.expandabletextviewlib.weiget.ExpandableTextView
+            android:id="@+id/tvTestLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            app:contentMaxLine="4"
+            app:contentTextSize="24sp"
+            app:labelCollapseText="收起"
+            app:labelExpandText="全文"
+            app:labelPadding="5dp"
+            app:labelTextColor="#0000FF"
+            app:labelTextSize="14sp"
+            tools:contentText="测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起测试长文本展开收起" />
+    </LinearLayout>
+</ScrollView>
