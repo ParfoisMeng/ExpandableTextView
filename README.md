@@ -1,2 +1,21 @@
 # ExpandableTextView
-Android的文本视图，可以像Google Play的应用程序描述那样展开/折叠
+仿微信朋友圈可以全文/收起的TextView。 [![](https://jitpack.io/v/ParfoisMeng/DecimalTextView.svg)](https://jitpack.io/#ParfoisMeng/DecimalTextView)
+
+- - - - -
+
+### 使用
+ - 引用类库 *请将last-version替换为最新版本号 [![](https://jitpack.io/v/ParfoisMeng/DecimalTextView.svg)](https://jitpack.io/#ParfoisMeng/DecimalTextView)
+```
+    // 1.添加jitpack仓库
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+    // 2.添加项目依赖（last-version替换为最新版本号）
+    dependencies {
+        implementation 'com.github.ParfoisMeng:ExpandableTextView:last-version'
+    }
+```
+
