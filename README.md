@@ -1,10 +1,10 @@
 # ExpandableTextView
-仿微信朋友圈可以全文/收起的TextView。 [![](https://jitpack.io/v/ParfoisMeng/DecimalTextView.svg)](https://jitpack.io/#ParfoisMeng/DecimalTextView)
+仿微信朋友圈可以全文/收起的TextView。 [![](https://jitpack.io/v/ParfoisMeng/ExpandableTextView.svg)](https://jitpack.io/#ParfoisMeng/ExpandableTextView)
 
 - - - - -
 
 ### 使用
- - 引用类库 *请将last-version替换为最新版本号 [![](https://jitpack.io/v/ParfoisMeng/DecimalTextView.svg)](https://jitpack.io/#ParfoisMeng/DecimalTextView)
+ - 引用类库 *请将last-version替换为最新版本号 [![](https://jitpack.io/v/ParfoisMeng/ExpandableTextView.svg)](https://jitpack.io/#ParfoisMeng/ExpandableTextView)
 ```
     // 1.添加jitpack仓库
     allprojects {
