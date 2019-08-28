@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.text.TextUtils
+import android.text.method.LinkMovementMethod
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.Gravity
@@ -135,6 +136,8 @@ class ExpandableTextView constructor(context: Context, attrs: AttributeSet? = nu
             setTextColor(contentTextColor)
             setTextSize(TypedValue.COMPLEX_UNIT_PX, contentTextSize.toFloat())
             ellipsize = TextUtils.TruncateAt.END
+
+            movementMethod = LinkMovementMethod.getInstance()
         })
         addView(tvLabel.apply {
             gravity = Gravity.CENTER_VERTICAL
